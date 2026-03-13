@@ -58,6 +58,12 @@ h4{font-size:20px;}
 .today::before {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: -1; width: 30px; height: 30px; display: block; background-color: rgb(255, 126, 5); border-radius: 50%; content: '';}
 #C_box .notice{background:ivory; border-radius: 50px;padding:20px 10px; margin:0 25px; height:200px;}
 
+/*notice*/
+.notice>.notice_list{padding:10px;text-align: left;}
+.notice>.notice_list>li{padding-bottom:5px; margin-bottom: 5px; border-bottom: 1px solid gray;}
+.notice>.notice_list>li>a{position: relative; color:#000; line-height:24px; padding-left:30px;  white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+.notice>.notice_list>li>a>img{width: 24px; position:absolute; left:0; top:50%; transform:translateY(-50%);}
+
 /*personal*/
 #personal{width:450px;}
 #personal>div{float:left;border-radius: 50px;}
@@ -97,5 +103,3 @@ h4{font-size:20px;}
 	
 
 }
-
-
