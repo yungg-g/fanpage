@@ -54,6 +54,7 @@ body{font-family: '', 'Noto Sans KR'; height:100dvh;
 	#wrap{}
 	.center{flex-flow: column; flex-wrap:nowrap; width:100%; max-width:470px;}
 	#header{display:none;}
+	#work, #C_box{margin-bottom:20px;}
 
 }
 
@@ -69,6 +70,7 @@ body{font-family: '', 'Noto Sans KR'; height:100dvh;
 	#personal{width:450px;}
 
 }
+
 
 
 
