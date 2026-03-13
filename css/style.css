@@ -29,7 +29,7 @@ body{font-family: 'OmuDaye', 'Noto Sans KR'; height:100dvh;
 #work>div{float:left;border-radius: 50px;}
 .workbox>.snsList{padding:10px; display:flex; justify-content: space-evenly;}
 .workbox>.snsPost{padding:10px 30px; display:flex; justify-content: space-evenly;}
-.workbox>.snsPost>li {width:calc(100% / 2); height:220px; overflow: hidden;}
+.workbox>.snsPost>li {width:calc(100% / 2); height:220px; overflow: hidden; position:relative;}
 
 .pic1{background: url(https://pbs.twimg.com/media/HDN2KpRbIAAK4of?format=jpg&name=large); margin-right:30px;}
 .pic2{background: url(https://pbs.twimg.com/media/HC3aqc7akAAMujZ?format=jpg&name=4096x4096);}
