@@ -1,14 +1,14 @@
 *{margin: 0; padding: 0;}
 a, a:visited, a:hover{text-decoration: none; display: block;}
 ul{list-style: none;}
-body{font-family: '', 'Noto Sans KR';
+body{font-family: '', 'Noto Sans KR'; height:100dvh;
   /*클릭방지
   -webkit-user-select: none;
 	-moz-user-select: none;
 	-ms-user-select: none;
 	user-select: none;*/
 }
-#wrap{margin: 0 auto; padding:50px 0; position: relative; display:flex; justify-content: space-around; align-items: center; background:url(../img/HC4foLNbgAAorRl.jfif) center center; background-size:cover; text-align: center; /*min-height: 100dvh;*/}
+#wrap{margin: 0 auto; height:100%; padding:50px 0; position: relative; display:flex; justify-content: space-around; align-items: center; background:url(../img/HC4foLNbgAAorRl.jfif) center center; background-attachment:fixed; background-size:cover; text-align: center; /*min-height: 100dvh;*/}
 
 /*work*/
 #work{width:450px;}
@@ -44,4 +44,5 @@ body{font-family: '', 'Noto Sans KR';
 .per1{background: url(https://pbs.twimg.com/media/HDN2KpRbIAAK4of?format=jpg&name=large); margin-right:30px;}
 
 .per2{background: url(https://pbs.twimg.com/media/HC3aqc7akAAMujZ?format=jpg&name=4096x4096);}
+
 
