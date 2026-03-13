@@ -60,7 +60,7 @@ h4{font-size:20px;}
 
 /*notice*/
 .notice>.notice_list{padding:10px;text-align: left;}
-.notice>.notice_list>li{padding-bottom:5px; margin-bottom: 5px; border-bottom: 1px solid gray;}
+.notice>.notice_list>li{padding:5px 0; border-bottom: 1px solid gray;}
 .notice>.notice_list>li>a{position: relative; color:#000; line-height:24px; padding-left:30px;  white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
 .notice>.notice_list>li>a>img{width: 24px; position:absolute; left:0; top:50%; transform:translateY(-50%);}
 	.notice>.notice_list>li:hover{background-color: rgba(255, 170, 91, 0.9);}
@@ -104,4 +104,5 @@ h4{font-size:20px;}
 	
 
 }
+
 
