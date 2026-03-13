@@ -73,12 +73,13 @@ body{font-family: '', 'Noto Sans KR'; height:100dvh;
 	#work>div:not(.workbox), #personal>div:not(.perbox){width:49%;}
 	.pic1, .per1{margin-right:2%;}
 	#work .workbox{width:100%;}
-	C_box{padding:20px 0;}
+	#C_box{padding:20px 0;}
 	#C_box .notice{margin:0 25px;}
 	#personal{margin-bottom:50px;}
 	
 
 }
+
 
 
 
