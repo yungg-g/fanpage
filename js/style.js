@@ -83,7 +83,7 @@ $(document).ready(function(){
         return false;
     });
 
-    $("#popupBox>.x_Btn").click(function(
+    $("#popupBox").click(function(
         ){$('#popupBox').css("display", "none");
         return false;
     });
