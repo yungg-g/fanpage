@@ -13,7 +13,7 @@
 *{margin: 0; padding: 0;}
 a, a:visited, a:hover{text-decoration: none; display: block;}
 ul{list-style: none;}
-body{font-family: 'OmuDaye', 'Noto Sans KR'; height:100dvh; overflow: hidden;
+body{font-family: 'OmuDaye', 'Noto Sans KR'; height:100dvh;
   /*클릭방지
   -webkit-user-select: none;
 	-moz-user-select: none;
