@@ -77,7 +77,7 @@ h4{font-size:20px;}
 
 	#C_box .notice{margin:0 20px;}
 	#personal{max-width: 450px; width: 100%;}
-	#personal .perbox{width:100%; margin-bottom:20px;}
+	#personal .perbox{width:100%; height: auto; margin-bottom:20px;}
 	
 
 }
@@ -97,4 +97,5 @@ h4{font-size:20px;}
 	
 
 }
+
 
