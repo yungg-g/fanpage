@@ -45,4 +45,11 @@ body{font-family: '', 'Noto Sans KR'; height:100dvh;
 
 .per2{background: url(https://pbs.twimg.com/media/HC3aqc7akAAMujZ?format=jpg&name=4096x4096);}
 
+/*👇 반응형작업 👇*/
+
+@media screen and (max-width:1450px){
+
+
+}
+
 
