@@ -27,6 +27,8 @@ body{font-family: 'OmuDaye', 'Noto Sans KR'; height:100dvh;
 /*work*/
 #work{width:450px;}
 #work>div{float:left;border-radius: 50px;}
+.workbox>ul{padding:10px 0;}
+.workbox>ul>li{line-height:24px;}
 .pic1{background: url(https://pbs.twimg.com/media/HDN2KpRbIAAK4of?format=jpg&name=large); margin-right:30px;}
 .pic2{background: url(https://pbs.twimg.com/media/HC3aqc7akAAMujZ?format=jpg&name=4096x4096);}
 #work>div:not(.workbox){width:210px; height:320px; text-align: left; background-position: center; background-size: cover;}
@@ -41,7 +43,7 @@ body{font-family: 'OmuDaye', 'Noto Sans KR'; height:100dvh;
 #calendar {width: 430px;margin: 20px;}
 #month, .year-month {font-size: 35px; font-weight:bold; font-family: 'Cafe24LovingU'!important; text-transform: uppercase;}
 .days {display: flex; margin: 25px 0 10px;}
-.day {width: calc(100% / 7); text-align: center;}
+.day {width: calc(100% / 7); text-align: center; font-weight: 600;}
 .dates {display: flex; flex-flow: row wrap; height: 300px;}
 .date { width: calc(100% / 7); padding: 10px 0; text-align: center;}
 .day:nth-child(7n + 1),.date:nth-child(7n + 1) {color: #D13E3E;}
@@ -91,6 +93,7 @@ body{font-family: 'OmuDaye', 'Noto Sans KR'; height:100dvh;
 	
 
 }
+
 
 
 
