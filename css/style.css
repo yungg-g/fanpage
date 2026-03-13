@@ -67,6 +67,7 @@ body{font-family: '', 'Noto Sans KR'; height:100dvh;
     padding: 0 10px;
     box-sizing: border-box;
     margin: 0;}
+	#work, #C_box{margin-bottom:20px;}
 	#work>div:not(.workbox){width:49%;}
 	.pic1{margin-right:2%;}
 	#work .workbox{width:100%;}
@@ -75,6 +76,7 @@ body{font-family: '', 'Noto Sans KR'; height:100dvh;
 	#personal .perbox{width:calc(100% - 20px);}
 
 }
+
 
 
 
