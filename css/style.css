@@ -54,28 +54,30 @@ body{font-family: '', 'Noto Sans KR'; height:100dvh;
 	#wrap{}
 	.center{flex-flow: column; flex-wrap:nowrap; width:100%; max-width:470px;}
 	#header{display:none;}
-	#work, #C_box{margin-bottom:20px;}
+	#work, #C_box{margin-bottom:50px;}
 	#C_box::after{width:calc(100% - 20px);}
 
 	#C_box .notice{margin:0 10px;}
+	#personal{max-width: 450px; width: 100%;}
+	#personal .perbox{width:100%; margin-bottom:20px;}
 	
 
 }
 
 @media screen and (max-width:500px){
-	#work, #C_box, #calendar {width: 100%;
+	#work, #C_box, #calendar, #personal {width: 100%;
     padding: 0 10px;
     box-sizing: border-box;
     margin: 0;}
-	#work, #C_box{margin-bottom:20px;}
+	#work, #C_box{margin-bottom:50px;}
 	#work>div:not(.workbox){width:49%;}
 	.pic1{margin-right:2%;}
 	#work .workbox{width:100%;}
+	#personal{margin-bottom:50px;}
 	
-	#personal{max-width: 450px; width: 100%;}
-	#personal .perbox{width:calc(100% - 20px);}
 
 }
+
 
 
 
