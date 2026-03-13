@@ -24,7 +24,8 @@ body{font-family: '', 'Noto Sans KR'; height:100dvh;
 @keyframes mannermode{ from{left:-2px} to{left:2px}}
 
 /*달력*/
-#C_box{background-color: rgba(255,255,255,.9); border-radius: 50px; width:470px; height:725px; padding-top:50px; box-sizing: border-box;}
+#C_box{ position:relative;  width:470px; height:725px; padding-top:50px; box-sizing: border-box;}
+#C_box::after{content:''; position:absolute; width:100%; height:100%; top: 50%; left: 50%; transform: translate(-50%, -50%); background-color: rgba(255,255,255,.9); border-radius: 50px;}
 #calendar {width: 430px;margin: 20px;}
 .year-month {font-size: 35px;}
 .days {display: flex; margin: 25px 0 10px;}
@@ -57,7 +58,7 @@ body{font-family: '', 'Noto Sans KR'; height:100dvh;
 }
 
 @media screen and (max-width:500px){
-	#work, #C_bo, #calendar {width: 100%;
+	#work, #C_box, #calendar {width: 100%;
     padding: 0 10px;
     box-sizing: border-box;
     margin: 0;}
@@ -68,6 +69,7 @@ body{font-family: '', 'Noto Sans KR'; height:100dvh;
 	#personal{width:450px;}
 
 }
+
 
 
 
