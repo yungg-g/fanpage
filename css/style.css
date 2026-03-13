@@ -29,7 +29,7 @@ body{font-family: 'OmuDaye', 'Noto Sans KR'; height:100dvh;
 #work>div{float:left;border-radius: 50px;}
 .workbox>.snsList{padding:10px; display:flex; justify-content: space-evenly;}
 .workbox>.snsPost{padding:10px; display:flex; justify-content: space-evenly;}
-.workbox>.snsPost>li {width:calc(100% / 2); overflow: hidden;}
+.workbox>.snsPost>li {width:calc(100% / 2); height:220px;  overflow: hidden;}
 .workbox>.snsPost>li img{transition: transform 0.15s ease 0s; transform: scale3d(1, 1, 1); width: 100%;}
 .workbox>.snsPost>li:hover img{transform: scale3d(1.1, 1.1, 1.1);}
 
@@ -98,3 +98,4 @@ body{font-family: 'OmuDaye', 'Noto Sans KR'; height:100dvh;
 	
 
 }
+
