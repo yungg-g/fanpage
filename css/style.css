@@ -1,7 +1,19 @@
+@font-face {
+    font-family: 'OmuDaye';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-01@1.0/omyu_pretty.woff2') format('woff2');
+    font-weight: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Cafe24LovingU';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2405-3@1.1/Cafe24Lovingu.woff2') format('woff2');
+    font-weight: normal;
+    font-display: swap;
+}
 *{margin: 0; padding: 0;}
 a, a:visited, a:hover{text-decoration: none; display: block;}
 ul{list-style: none;}
-body{font-family: '', 'Noto Sans KR'; height:100dvh;
+body{font-family: 'OmuDaye', 'Noto Sans KR'; height:100dvh;
   /*클릭방지
   -webkit-user-select: none;
 	-moz-user-select: none;
@@ -27,7 +39,7 @@ body{font-family: '', 'Noto Sans KR'; height:100dvh;
 #C_box{ position:relative;  width:470px; height:725px; padding-top:50px; box-sizing: border-box;}
 #C_box::after{content:''; position:absolute; width:100%; height:100%; top: 50%; left: 50%; transform: translate(-50%, -50%); background-color: rgba(255,255,255,.9); border-radius: 50px; z-index:-1;}
 #calendar {width: 430px;margin: 20px;}
-.year-month {font-size: 35px;}
+.year-month {font-size: 35px; font-family: 'Cafe24LovingU';}
 .days {display: flex; margin: 25px 0 10px;}
 .day {width: calc(100% / 7); text-align: center;}
 .dates {display: flex; flex-flow: row wrap; height: 300px;}
@@ -79,6 +91,7 @@ body{font-family: '', 'Noto Sans KR'; height:100dvh;
 	
 
 }
+
 
 
 
