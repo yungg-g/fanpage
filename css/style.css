@@ -48,10 +48,12 @@ body{font-family: '', 'Noto Sans KR'; height:100dvh;
 /*👇 반응형작업 👇*/
 
 @media screen and (max-width:1450px){
-	#wrap{flex-flow: column; flex-wrap:nowrap; max-width:470px;}
+	#wrap{flex-flow: column; flex-wrap:nowrap;}
+	.center{max-width:470px;}
 	#header{display:none;}
 
 }
+
 
 
 
