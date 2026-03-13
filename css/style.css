@@ -32,7 +32,7 @@ body{font-family: '', 'Noto Sans KR';
 .day:nth-child(7n + 1),.date:nth-child(7n + 1) {color: #D13E3E;}
 .day:nth-child(7n),.date:nth-child(7n) {color: #396EE2;}
 .other {opacity: 0.3;}
-.today {position: relative;color: #FFFFFF; z-index:1}
+.today {position: relative;color: #FFFFFF;z-index: 2;}
 .today::before {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: -1; width: 30px; height: 30px; display: block; background-color: #FF0000; border-radius: 50%; content: '';}
 #C_box .notice{background:ivory; border-radius: 50px;padding:20px 10px; margin:0 25px; height:200px;}
 
@@ -44,3 +44,4 @@ body{font-family: '', 'Noto Sans KR';
 .per1{background: url(https://pbs.twimg.com/media/HDN2KpRbIAAK4of?format=jpg&name=large); margin-right:30px;}
 
 .per2{background: url(https://pbs.twimg.com/media/HC3aqc7akAAMujZ?format=jpg&name=4096x4096);}
+
