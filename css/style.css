@@ -51,11 +51,23 @@ body{font-family: '', 'Noto Sans KR'; height:100dvh;
 
 @media screen and (max-width:1450px){
 	#wrap{}
-	.center{flex-flow: column; flex-wrap:nowrap; max-width:470px;}
+	.center{flex-flow: column; flex-wrap:nowrap; width:100%; max-width:470px;}
 	#header{display:none;}
 
 }
 
+@media screen and (max-width:500px){
+	#work, #C_bo, #calendar {width: 100%;
+    padding: 0 10px;
+    box-sizing: border-box;
+    margin: 0;}
+	#work>div:not(.workbox){width:49%;}
+	.pic1{margin-right:2%;}
+	#work .workbox{width:100%;}
+	
+	#personal{width:450px;}
+
+}
 
 
 
